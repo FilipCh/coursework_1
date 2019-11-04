@@ -34,7 +34,7 @@ class Dec2Hex
         }
         
         System.out.println("Hexadecimal representation is : " + hexadecimal);
-		System.out.println("This is an test update to the file")
+		System.out.println("This is an test update to the file");
 
     }
 }
