@@ -7,6 +7,7 @@ class Dec2Hex
 
     public static void main(String args[])
     {
+		if (args.length>0){
         if (args.length > 0) 
         {
             try 
@@ -19,6 +20,7 @@ class Dec2Hex
                 System.exit(1);
             }
         }
+		
 
     	char ch[]={'0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'};
          int rem, num;
@@ -36,6 +38,6 @@ class Dec2Hex
         System.out.println("Hexadecimal representation is : " + hexadecimal);
 		System.out.println("This is an test update to the file");
 		System.out.println("Test22");
-
+		}else {System.out.println("ERROR!! ISERT INTEGER");}
     }
 }
